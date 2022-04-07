@@ -1,0 +1,279 @@
+.facebook-news {
+
+    display: grid;
+    justify-items: center;
+
+    font-family: Poppins;
+    font-size: 32px;
+    color: #ffffff;
+
+    padding-top: 70px;
+    padding-bottom: 183px;
+
+    background-color: #f3f3f3;
+
+}
+
+.facebook-news-inner {
+
+    max-width: 1280px;
+    display: grid;
+    max-width: 100%;
+}
+
+.facebook-news-heading {
+
+    position: relative;
+    // max-width: 418px;
+
+    font-family: Poppins;
+    font-size: 3.333333vw;
+    font-weight: bold;
+    line-height: 1.31;
+    color: #262727;
+
+    margin: 0 0 81px 0;
+}
+
+.facebook-news-heading span {
+    color: #2e4897;
+}
+
+.facebook-news-list {
+
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat(4, -webkit-min-content);
+    grid-template-columns: repeat(4, min-content);
+    -webkit-column-gap: 32px;
+    -moz-column-gap: 32px;
+    column-gap: 32px;
+
+}
+
+.facebook-news-item {
+
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+
+    min-height: 26.09375vw;
+    color: #131415;
+
+}
+
+.facebook-news-image-box {
+
+    background-color: #fff;
+    border-radius: 10px 10px 0 0;
+
+}
+
+.facebook-news-image {
+
+    border-radius: 10px 10px 0 0;
+
+}
+
+.facebook-news-text {
+
+    background-color: #fff;
+    border-radius: 0 0 10px 10px;
+    font-size: 18px;
+    padding: 0 16px;
+    // padding-top: 10px;
+    padding-bottom: 20px;
+
+}
+
+.facebook-news-intro {
+
+    text-decoration: none;
+    color: #262727;
+    margin-top: 8px;
+    display: inline-block;
+    line-height: 30px;
+
+}
+
+.facebook-news-date {
+
+    color: #131415;
+    margin-top: 16px;
+    opacity: 0.6;
+    font-family: Poppins;
+    font-size: 18px;
+    line-height: 1.67;
+
+}
+
+.facebook-news-heading {
+
+    color: #262727;
+    margin-top: 3px;
+    font-family: Poppins;
+    font-size: 64px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.42;
+    letter-spacing: normal;
+
+}
+
+.facebook-news-title {
+
+    color: #131415;
+    text-decoration: none;
+    margin-top: 8px;
+    font-family: Poppins;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: bold;
+    line-height: 1.42;
+
+}
+
+.more-link {
+
+    font-family: Poppins;
+    font-size: 18px;
+    line-height: 30px;
+
+}
+
+.facebook-news-arrows {
+
+    position: absolute;
+    right: 7px;
+    top: -140px;
+    width: 153px;
+    height: 52px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    gap: 7px;
+
+}
+
+.facebook-news-arrow-right {
+
+    margin-left: 5px;
+
+}
+
+.facebook-news-arrow-left {
+
+    margin-right: 5px;
+
+}
+
+.facebook-news-dot-active {
+
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    background-color: #0979f0;
+    border-radius: 50%;
+    background-position: center;
+    line-height: 52px;
+    margin-top: 21px;
+
+}
+
+.facebook-news-dot {
+
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    background-color: #262727;
+    border-radius: 50%;
+    background-position: center;
+    line-height: 52px;
+    margin-top: 21px;
+
+}
+
+
+
+@media only screen and (min-width: 1920px) {
+
+    .facebook-news-heading {
+        font-size: 64px;
+    }
+
+    .facebook-news-inner {
+        max-width: 84%;
+    }
+
+}
+
+
+@media only screen and (max-width: 1300px) {
+
+    .facebook-news-inner {
+        max-width: 84%;
+    }
+
+    .facebook-news-arrows{
+        right: 197px;
+    }
+
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .facebook-news-inner {
+        max-width: 81%;
+        
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    
+    .facebook-news-inner {
+        max-width: 86%;
+    }
+
+}
+
+@media only screen and (max-width: 425px) {
+
+    .facebook-news {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .facebook-news-inner {
+
+        max-width: 96.5%;
+
+    }
+
+    .facebook-news-list {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        row-gap: 30px;
+    }
+
+    .facebook-news-heading {
+        font-size: 32px;
+        margin-bottom: 40px;
+    }
+
+    .facebook-news-arrows {
+
+        display: none;
+    }
+
+    .facebook-news-heading::after {
+
+        left: 130px;
+        bottom: -70%;
+        width: 80px;
+        background-size: contain;
+
+    }
+
+
+}

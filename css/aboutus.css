@@ -1,0 +1,149 @@
+.about-us {
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+  font-family: Poppins;
+  font-size: 32px;
+  color: #131415;
+  padding-top: 140.7px;
+  padding-bottom: 123px;
+  background-color: #f3f3f3;
+}
+
+.about-us-inner {
+  max-width: 1280px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+  -webkit-column-gap: 1.71875vw;
+  column-gap: 1.71875vw;
+}
+
+.about-us-info {
+  background: #ffffff url(/images/trizub.png) no-repeat right bottom;
+}
+
+.about-us-heading {
+  font-family: Poppins;
+  font-size: 3.3333vw;
+  font-weight: bold;
+  color: #131415;
+  padding-bottom: 1.45vw;
+}
+
+.about-us-text {
+  font-family: Poppins;
+  font-size: 0.9375vw;
+  line-height: 1.67;
+  letter-spacing: normal;
+  color: #131415;
+}
+
+.about-us-logo {
+  margin-bottom: 4.1458333333vw;
+}
+
+.about-us-info {
+  padding: 3.6458333333vw 2.6041666667vw;
+  max-height: 631px;
+  border-radius: 10px;
+}
+
+.slider {
+  min-width: 32.4479166667vw;
+  max-height: 772px;
+}
+
+.slider-image {
+  display: inline-block;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 2560px) and (min-width: 1921px) {
+  .about-us-logo {
+    margin-bottom: 1.2vw;
+  }
+  .about-us-heading {
+    font-size: 3vw;
+    padding-bottom: 0;
+  }
+  .about-us-info {
+    padding-top: 2vw;
+  }
+  .about-us-info {
+    max-height: 627px;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .about-us-info {
+    max-height: 667px;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .about-us-inner {
+    max-width: 84%;
+  }
+  .slider-image {
+    width: 100%;
+    height: auto;
+  }
+  .about-us-info {
+    max-height: 566px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .about-us-inner {
+    max-width: 76%;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    row-gap: 30px;
+  }
+  .slider-image {
+    width: 100%;
+    height: auto;
+  }
+  .about-us-info {
+    max-height: 397px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .about-us-info {
+    max-height: 298px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .about-us-inner {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    row-gap: 30px;
+    max-width: 90%;
+  }
+  .about-us {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .about-us-info {
+    max-height: initial;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .about-us-heading {
+    font-size: 32px;
+  }
+  .about-us-text {
+    font-size: 18px;
+  }
+  .about-us-logo {
+    margin-bottom: 25px;
+  }
+  .about-us-info {
+    background-size: contain;
+  }
+}
+/*# sourceMappingURL=aboutus.css.map */
