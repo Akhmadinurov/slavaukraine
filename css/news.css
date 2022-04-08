@@ -45,9 +45,9 @@
 .facebook-news-item {
   display: -ms-grid;
   display: grid;
-  -ms-grid-rows: 1fr 1fr;
-      grid-template-rows: 1fr 1fr;
-  min-height: 26.09375vw;
+  grid-template-rows: -webkit-min-content -webkit-min-content;
+  -ms-grid-rows: min-content min-content;
+      grid-template-rows: min-content min-content;
   color: #131415;
 }
 
@@ -156,6 +156,49 @@
   background-position: center;
   line-height: 52px;
   margin-top: 21px;
+}
+
+.facebook-reactions {
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: -webkit-min-content -webkit-min-content auto;
+  -ms-grid-columns: min-content min-content auto;
+      grid-template-columns: min-content min-content auto;
+  -webkit-column-gap: 16px;
+  column-gap: 16px;
+  margin-top: 12px;
+}
+
+.likes {
+  font-size: 18px;
+  color: #777575;
+  height: 30px;
+  line-height: 30px;
+  width: 46px;
+  display: inline-block;
+  background: url(/images/facebook-like.svg) no-repeat left 5px;
+  text-align: right;
+}
+
+.comments {
+  font-size: 18px;
+  color: #777575;
+  height: 30px;
+  line-height: 30px;
+  width: 41px;
+  display: inline-block;
+  background: url(/images/facebook-comment.svg) no-repeat left 6px;
+  text-align: right;
+}
+
+.share {
+  height: 30px;
+  line-height: 30px;
+  width: 20px;
+  display: inline-block;
+  background: url(/images/facebook-icon.svg) no-repeat center;
+  -ms-grid-column-align: end;
+      justify-self: end;
 }
 
 @media only screen and (min-width: 1920px) {

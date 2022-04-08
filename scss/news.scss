@@ -54,9 +54,10 @@
 .facebook-news-item {
 
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: -webkit-min-content -webkit-min-content;
+    grid-template-rows: min-content min-content;
 
-    min-height: 26.09375vw;
+    // min-height: 26.09375vw;
     color: #131415;
 
 }
@@ -195,6 +196,56 @@
 
 }
 
+.facebook-reactions {
+
+    display: grid;
+    grid-template-columns: -webkit-min-content -webkit-min-content auto;
+    grid-template-columns: min-content min-content auto;
+    -webkit-column-gap: 16px;
+    -moz-column-gap: 16px;
+    column-gap: 16px;
+
+    margin-top: 12px;
+}
+
+.likes {
+
+    font-size: 18px;
+    color: #777575;
+    // opacity: 0.6;
+    height: 30px;
+    line-height: 30px;
+    width: 46px;
+    display: inline-block;
+    background: url(/images/facebook-like.svg) no-repeat left 5px;
+    text-align: right;
+
+}
+
+.comments {
+
+    font-size: 18px;
+    color: #777575;
+    // opacity: 0.6;
+    height: 30px;
+    line-height: 30px;
+    width: 41px;
+    display: inline-block;
+    background: url(/images/facebook-comment.svg) no-repeat left 6px;
+    text-align: right;
+
+}
+
+.share {
+
+    height: 30px;
+    line-height: 30px;
+    width: 20px;
+    display: inline-block;
+    background: url(/images/facebook-icon.svg) no-repeat center;
+    justify-self: end;
+
+}
 
 
 @media only screen and (min-width: 1920px) {
@@ -216,7 +267,7 @@
         max-width: 84%;
     }
 
-    .facebook-news-arrows{
+    .facebook-news-arrows {
         right: 197px;
     }
 
@@ -226,12 +277,12 @@
 
     .facebook-news-inner {
         max-width: 81%;
-        
+
     }
 }
 
 @media only screen and (max-width: 768px) {
-    
+
     .facebook-news-inner {
         max-width: 86%;
     }

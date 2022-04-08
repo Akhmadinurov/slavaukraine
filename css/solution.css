@@ -56,9 +56,9 @@
 .solution-item {
   display: -ms-grid;
   display: grid;
-  -ms-grid-rows: 1fr 1fr;
-      grid-template-rows: 1fr 1fr;
-  min-height: 26.09375vw;
+  grid-template-rows: -webkit-min-content -webkit-min-content;
+  -ms-grid-rows: min-content min-content;
+      grid-template-rows: min-content min-content;
   color: #131415;
 }
 
@@ -75,6 +75,7 @@
   background-color: #fff;
   border-radius: 0 0 10px 10px;
   padding: 16px;
+  margin-top: -5px;
 }
 
 .solution-date {
@@ -176,6 +177,9 @@
 @media only screen and (max-width: 1300px) {
   .solution-inner {
     max-width: 84%;
+  }
+  .solution-arrows {
+    right: 197px;
   }
 }
 

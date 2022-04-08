@@ -76,9 +76,10 @@
 .solution-item {
 
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: -webkit-min-content -webkit-min-content;
+    grid-template-rows: min-content min-content;
 
-    min-height: 26.09375vw;
+    // min-height: 26.09375vw;
     color: #131415;
 }
 
@@ -100,6 +101,7 @@
     background-color: #fff;
     border-radius: 0 0 10px 10px;
     padding: 16px;
+    margin-top: -5px;
 
 }
 
@@ -164,7 +166,6 @@
     position: absolute;
     right: 0;
     top: -137px;
-    // width: 145px;
     width: 153px;
     height: 52px;
     display: -webkit-box;
@@ -242,6 +243,10 @@
 
     .solution-inner {
         max-width: 84%;
+    }
+
+    .solution-arrows{
+        right: 197px;
     }
 
     // .solution-list {
