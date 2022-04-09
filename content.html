@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- resetting to defaults css -->
+    <link rel="stylesheet" href="./css/reset.css">
+
+    <!-- page css -->
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/problem.css">
+    <link rel="stylesheet" href="./css/aboutus.css">
+    <link rel="stylesheet" href="./css/solution.css">
+    <link rel="stylesheet" href="./css/stats.css">
+    <link rel="stylesheet" href="./css/news.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/content-page.css">
+
+    <!-- slick slider styles -->
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <!-- // Add the new slick-theme.css if you want the default styling -->
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Rajdhani:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- slick slider js -->
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+
+    <title>Slava Ukraine</title>
+
+    <script>
+        // top nav change on scrool 
+        var nav = document.querySelector('.navbar');
+
+        window.onscroll = function () {
+            if (window.pageYOffset > 0) {
+                document.querySelector('.navbar').classList.add('scrolled');
+            }
+            else {
+                document.querySelector('.navbar').classList.remove('scrolled');
+            }
+        }
+    </script>
+
+</head>
+
+<body>
+    <!-- main-container -->
+    <div class="main-container">
+
+        <!-- header -->
+
+        <header class="header">
+
+            <!-- navbar -->
+            <div class="navbar">
+
+                <div class="logo">
+                    <a href="#">
+                        <img srcset="images/logo.png 212w" sizes="(max-width: 1024px) 105px,
+                                              212px" src="images/logo.png" alt="Slava Ukraine"> </a>
+                </div>
+
+                <div class="flex-container">
+
+                    <!-- <div id="#menuToggle"> -->
+
+                    <!-- <div class="navbar__sandwich-menu" onchange="toggle()">
+                    <input class="navbar__fake-checkbox" type="checkbox" />
+                </div> -->
+
+                    <nav id="cont" class="navbar-menu">
+                        <a href="#problem" class="navbar-link">Problem</a>
+                        <a href="#aboutus" class="navbar-link">About us</a>
+                        <a href="#solution" class="navbar-link">Solution</a>
+                        <a href="#facebook-news" class="navbar-link">News</a>
+                        <a href="#" class="navbar-link">Contacts</a>
+                    </nav>
+
+                    <!-- </div> -->
+                </div>
+
+                <div class="button-container">
+                    <button id="myBtn" class="donate-button-small">Donate</button>
+                </div>
+
+            </div>
+            <!-- /navbar end -->
+
+
+        </header>
+        <!-- /header end -->
+
+        <!-- problem -->
+
+        <!-- <a id="problem"></a> -->
+        <main class="content">
+            <section class="content-inner">
+                <img class="content-img" src="./images/img-single-page.jpg" alt="">
+                <h1 class="content-heading">Delivery of aid & supplies to cities across Ukraine </h1>
+                <date class="content-date">24.03.2020</date>
+                <p class="content-text">Firstly, we thank wholeheartedly every donor for the support of Razom’s work in
+                    this trying time of crisis. Your donations are going toward providing critical aid relief, support
+                    for displaced persons, and amplifying Ukraine’s story and the voices of Ukrainians. In a couple of
+                    months we’ll be able to acknowledge and write to each and every one of you. Your support gives us
+                    hope and strength. But right now, we ask for your patience as we work tirelessly to transform your
+                    money into support in the right hands in Ukraine. </p>
+                <p class="content-text">And here are the latest updates on progress and impact of the Razom Emergency
+                    Response Project:</p>
+                <ul class="content-u-list">
+                    <li>You can now become a part of the Razom procurement team by buying humanitarian aid items that
+                        are urgently needed but not impossible to find off of our Amazon Custom Gift List. Razom
+                        volunteers will deliver and sort the items in our New Jersey warehouse with Meest before
+                        shipping it out Ukraine.</li>
+                    <li>An Americares donation of the most critically needed hospital supplies has been delivered to
+                        the Cancer Institute of Kyiv in Ukraine that includes 9.5 pallets with 921 cases totaling 6,283
+                        pounds of supplies that will be distributed to several more hospitals in Kyiv.</li>
+                    <li>Razom’s procurement of a defibrillator, insulin, and other important medicines like
+                        metformin,
+                        glimepiride, levothyroxine was delivered to the Ukrainian Diabetes Association in Kharkiv, Kyiv,
+                        and Luhansk regions. We accomplished this in partnership with volunteers at AWO Ortsverein
+                        Reischach – AG and Ukraine-HILFE Berlin e.V.</li>
+                    <li>Razom volunteers have made a total of 7 trips carrying tactical medicine cargo to various
+                        volunteer civilian defense corps prioritizing cities and regions where Ukrainians are actively
+                        repelling russian occupiers.</li>
+                    <li>Razom has secured 50 drones across the Polish border that will be used to ensure the safe
+                        delivery of medical and tactical medical supplies by our volunteers traveling across hotspot
+                        areas in Ukraine.</li>
+                    <li>Razom issued a grant to long-time partner BUR (Building Ukraine Together) to support their
+                        programs helping internally displaced people in Ukraine by renovating infrastructure, building
+                        shelter camps for IDPs, and offering humanitarian aid across Kyiv, Kharkiv, and Chernihiv. We
+                        continue to support and collaborate with them.</li>
+                </ul>
+                <p class="content-text">
+                    Thank you to all of the volunteers who work on the “second front” of this war! None of this impact
+                    would have been possible without your unwavering determination to getting the work done. </p>
+            </section>
+        </main>
+
+        <!-- /problem end -->
+
+        <!-- solution -->
+
+        <a id="solution"></a>
+
+        <div class="solution">
+
+            <div class="solution-inner">
+
+                <h3 class="solution-heading heading">How we help <br><span>Ukraine</span></h3>
+
+                <div class="solution-list">
+
+                    <div class="solution-arrows">
+                        <a href="#"><img class="solution-arrow-left" src="images/arrow-left.png"></a>
+                        <a href="#"><span class="solution-dot-active "></span></a><a href="#"><span
+                                class="solution-dot"></span></a>
+                        <a href="#"><img class="solution-arrow-right" src="images/arrow-right.png"></a>
+                    </div>
+
+                    <div class="solution-item">
+
+                        <div class="solution-image-box"><img class="solution-image" src="images/help/help2.jpg"
+                                alt="Delivery of aid & supplies to cities across Ukraine Photo"></div>
+
+
+                        <!-- srcset="images/help/help1.jpg 296w" sizes="(max-width: 1024px) 150px, 296px" -->
+
+                        <!-- <img class="stats-logo" srcset="images/logo.png 212w" sizes="(max-width: 1024px) 105px,
+                                212px" src="images/logo.png" alt="Slava Ukraine"> </a> -->
+
+
+                        <div class="solution-text">
+                            <time class="solution-date">24.03.2020</time>
+                            <h4 class="solution-title">Delivery of aid & supplies to cities across Ukraine </h4>
+                            <a href="#" class="more-link">Learn more</a>
+                        </div>
+
+                    </div>
+
+                    <div class="solution-item">
+
+                        <div class="solution-image-box"><img class="solution-image" src="images/help/help2.jpg"
+                                alt="Delivery of aid & supplies to cities across Ukraine Photo"></div>
+
+                        <div class="solution-text">
+                            <time class="solution-date">24.03.2020</time>
+                            <h4 class="solution-title">Delivery of aid & supplies to cities across Ukraine </h4>
+                            <a href="#" class="more-link">Learn more</a>
+                        </div>
+
+                    </div>
+
+                    <div class="solution-item">
+
+                        <div class="solution-image-box"><img class="solution-image" src="images/help/help3.jpg"
+                                alt="Delivery of aid & supplies to cities across Ukraine Photo"></div>
+
+                        <div class="solution-text">
+                            <time class="solution-date">24.03.2020</time>
+                            <h4 class="solution-title">Delivery of aid & supplies to cities across Ukraine </h2>
+                                <a href="#" class="more-link">Learn more</a>
+                        </div>
+
+                    </div>
+
+                    <div class="solution-item">
+
+                        <div class="solution-image-box"><img class="solution-image" src="images/help/help4.jpg"
+                                alt="Delivery of aid & supplies to cities across Ukraine Photo"></div>
+
+                        <div class="solution-text">
+                            <time class="solution-date">24.03.2020</time>
+                            <h4 class="solution-title">Delivery of aid & supplies to cities across Ukraine </header>
+                                <a href="#" class="more-link">Learn more</a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- /solution end -->
+
+        <!-- stats -->
+
+        <div class="stats">
+            <div class="stats-inner">
+
+                <img class="stats-logo" srcset="images/logo.png 212w" sizes="(max-width: 1024px) 105px,
+                212px" src="images/logo.png" alt="Slava Ukraine"> </a>
+
+                <p class="stats-text">Ukraine needs your support. Any donation you provide helps save Ukraine and
+                    Ukrainians.</p>
+
+                <div class="stats-numbers">
+                    <div class="stats-item">
+                        <div class="stats-amount">68</div>
+                        <div class="stats-name">donations</div>
+                    </div>
+                    <div class="stats-item">
+                        <div class="stats-amount"><span class="currency">$</span>17,345</div>
+                        <div class="stats-name">raised</div>
+                    </div>
+                    <div class=" stats-item">
+                        <div class="stats-amount"><span class="currency">$</span>30,000</div>
+                        <div class="stats-name">goal</div>
+                    </div>
+                </div>
+
+                <button class=" stats-button ">Donate</button>
+
+            </div>
+        </div>
+
+        <!-- /stats end -->
+
+
+
+        <footer class="footer">
+
+            <div class="footer-inner">
+
+                <div class="socials">
+                    <a class="socials-item" href="#"><img src="images/logo-facebook.png" alt=""></a>
+                    <a class="socials-item" href="#"><img src="images/logo-twitter.png" alt=""></a>
+                    <a class="socials-item" href="#"><img src="images/logo-linkedin.png" alt=""></a>
+                </div>
+
+                <div class="footer-logo">
+                    <img srcset="images/logo.png 212w" sizes="(max-width: 768px) 105px,
+                    212px" src="images/logo.png" alt="Slava Ukraine">
+                </div>
+                <div class="copyright">&copy;SlavaUkraine, 2022, All rights reserved</div>
+            </div>
+
+
+        </footer>
+
+    </div>
+    <!-- /main-container end -->
+
+    <!-- slick slider code -->
+    <script src=" https://code.jquery.com/jquery-3.5.1.slim.min.js">
+    </script>
+    <script src="slick/slick.min.js"></script>
+    <script src="js/main.js"></script>
+
+
+</body>
+
+</html>
