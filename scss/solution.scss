@@ -245,7 +245,7 @@
         max-width: 84%;
     }
 
-    .solution-arrows{
+    .solution-arrows {
         right: 197px;
     }
 
@@ -291,7 +291,7 @@
 }
 
 @media only screen and (max-width: 768px) {
-    
+
     .solution-inner {
         max-width: 86%;
     }
@@ -307,7 +307,9 @@
 
     .solution-inner {
 
-        max-width: 96.5%;
+        max-width: 100%;
+        margin-left: 16px;
+        margin-right: 16px;
 
     }
 

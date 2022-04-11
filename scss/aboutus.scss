@@ -89,19 +89,6 @@
         line-height: 1.5;
     }
 
-
-
-
-}
-
-@media only screen and (min-width: 1920px) {
-
-
-}
-
-@media only screen and (max-width: 1440px) {
-
-
 }
 
 
@@ -115,7 +102,6 @@
         width: 100%;
         height: auto;
     }
-
 
 }
 
@@ -154,7 +140,7 @@
 
         padding: 30px 28px 0 30px;
         max-height: 324px;
-        
+
     }
 
     .about-us-logo {
@@ -175,7 +161,10 @@
 
         grid-template-columns: 1fr;
         row-gap: 30px;
-        max-width: 90%;
+        // max-width: 90%; //!!!
+        max-width: 100%;
+        margin-left: 16px;
+        margin-right: 16px;
     }
 
     .about-us {
