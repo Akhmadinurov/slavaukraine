@@ -239,38 +239,16 @@
 
 // }
 
-@media only screen and (max-width: 1300px) {
 
-    .solution-inner {
-        max-width: 84%;
-    }
-
-    .solution-arrows {
-        right: 197px;
-    }
-
-    // .solution-list {
-    //     grid-template-columns: repeat(2, 1fr);
-    //     grid-template-rows: repeat(2, 1fr);
-    //     row-gap: 30px;
-    // }
-
-    // .solution-image {
-
-    //     width: 100%;
-    //     height: auto;
-    //     display: inline-block;
-
-    // }
-
-
-}
 
 @media only screen and (max-width: 1024px) {
 
     .solution-inner {
         // max-width: 76%;
-        max-width: 81%;
+        // max-width: 81%;
+        max-width: 100%;
+        margin-left: 16px;
+        margin-right: 16px;
 
     }
 
@@ -293,7 +271,10 @@
 @media only screen and (max-width: 768px) {
 
     .solution-inner {
-        max-width: 86%;
+        // max-width: 86%;
+        max-width: 100%;
+        margin-left: 16px;
+        margin-right: 16px;
     }
 
 }

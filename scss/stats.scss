@@ -131,55 +131,14 @@
     justify-self: center;
 }
 
-@media only screen and (min-width: 1920px) {
-
-    .stats-heading {
-        font-size: 64px;
-    }
-
-    // .stats-inner{
-    //     max-width: 1280px;
-    // }
-
-
-    .stats-text {
-        margin: 24px 148px 0 148px;
-        // margin: 25px 50px 0 50px;
-    }
-
-}
-
-@media only screen and (max-width: 1440px) {
-
-    .stats-inner {
-        max-width: 1280px;
-    }
-
-    .stats-text {
-        // margin: 24px 148px 0 148px;
-        margin: 25px 50px 0 50px;
-    }
-
-}
-
-@media only screen and (max-width: 1300px) {
-
-    .stats-inner {
-        max-width: 84%;
-    }
-
-    .stats-text {
-        // margin: 24px 148px 0 148px;
-        margin: 25px 50px 0 50px;
-    }
-
-}
-
 @media only screen and (max-width: 1024px) {
 
     .stats-inner {
-        max-width: 76%;
+
         padding: 33px 0 24px 0;
+        max-width: 100%;
+        margin-left: 16px;
+        margin-right: 16px;
 
     }
 
@@ -200,8 +159,11 @@
 
     .stats-inner {
 
-        max-width: 76%;
+        // max-width: 76%;
         padding: 33px 0 24px 0;
+        max-width: 100%;
+        margin-left: 16px;
+        margin-right: 16px;
 
     }
 

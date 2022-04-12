@@ -16,8 +16,8 @@
   display: grid;
   -ms-grid-columns: 50% 50%;
       grid-template-columns: 50% 50%;
-  -webkit-column-gap: 1.71875vw;
-  column-gap: 1.71875vw;
+  -webkit-column-gap: 32px;
+  column-gap: 32px;
 }
 
 .about-us-heading {
@@ -71,19 +71,11 @@
   }
 }
 
-@media only screen and (max-width: 1300px) {
-  .about-us-inner {
-    max-width: 84%;
-  }
-  .slider-image {
-    width: 100%;
-    height: auto;
-  }
-}
-
 @media only screen and (max-width: 1024px) {
   .about-us-inner {
-    max-width: 76%;
+    max-width: 100%;
+    margin-left: 16px;
+    margin-right: 16px;
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
     row-gap: 30px;
@@ -94,7 +86,6 @@
   }
   .about-us-info {
     padding: 30px 28px 0 30px;
-    max-height: 442px;
   }
   .about-us-logo {
     margin-bottom: 20px;

@@ -174,24 +174,19 @@
   }
 }
 
-@media only screen and (max-width: 1300px) {
-  .solution-inner {
-    max-width: 84%;
-  }
-  .solution-arrows {
-    right: 197px;
-  }
-}
-
 @media only screen and (max-width: 1024px) {
   .solution-inner {
-    max-width: 81%;
+    max-width: 100%;
+    margin-left: 16px;
+    margin-right: 16px;
   }
 }
 
 @media only screen and (max-width: 768px) {
   .solution-inner {
-    max-width: 86%;
+    max-width: 100%;
+    margin-left: 16px;
+    margin-right: 16px;
   }
 }
 

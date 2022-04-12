@@ -61,9 +61,15 @@
   margin-bottom: 24px;
 }
 
-@media only screen and (max-width: 1279px) {
+@media only screen and (max-width: 1024px) {
   .content-inner {
-    max-width: 76%;
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .content-inner {
+    max-width: 100%;
   }
 }
 

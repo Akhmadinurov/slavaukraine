@@ -116,7 +116,7 @@
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
-    line-height: 1.42;
+    line-height: 1.3;
     letter-spacing: normal;
 
 }
@@ -247,44 +247,21 @@
 
 }
 
-
-@media only screen and (min-width: 1920px) {
-
-    .facebook-news-heading {
-        font-size: 64px;
-    }
-
-    .facebook-news-inner {
-        max-width: 84%;
-    }
-
-}
-
-
-@media only screen and (max-width: 1300px) {
-
-    .facebook-news-inner {
-        max-width: 84%;
-    }
-
-    .facebook-news-arrows {
-        right: 197px;
-    }
-
-}
-
 @media only screen and (max-width: 1024px) {
 
     .facebook-news-inner {
-        max-width: 81%;
-
+        max-width: 100%;
+        margin-left: 16px;
+        margin-right: 16px;
     }
 }
 
 @media only screen and (max-width: 768px) {
 
     .facebook-news-inner {
-        max-width: 86%;
+        max-width: 100%;
+        margin-left: 16px;
+        margin-right: 16px;
     }
 
 }

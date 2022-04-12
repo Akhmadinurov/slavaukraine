@@ -77,14 +77,29 @@
 
 }
 
-@media only screen and (max-width: 1279px) {
 
+
+@media only screen and (max-width: 1024px) {
 
     .content-inner {
-        max-width: 76%;
+        max-width: 100%;
+        // margin-left: 16px;
+        // margin-right: 16px;
     }
 
 }
+
+@media only screen and (max-width: 768px) {
+
+    .content-inner {
+        max-width: 100%;
+        // margin-left: 16px;
+        // margin-right: 16px;
+    }
+
+}
+
+
 
 @media only screen and (max-width: 425px) {
 
