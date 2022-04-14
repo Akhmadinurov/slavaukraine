@@ -42,7 +42,7 @@
 }
 
 .about-us-info {
-  background: #ffffff url(/images/trizub.png) no-repeat right bottom;
+  background: #ffffff url(../images/trizub.png) no-repeat right bottom;
   padding: 70px 58px 0 50px;
   max-height: 702px;
   border-radius: 10px;

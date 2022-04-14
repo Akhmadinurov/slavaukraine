@@ -220,7 +220,7 @@
     line-height: 30px;
     width: 46px;
     display: inline-block;
-    background: url(./images/facebook-like.svg) no-repeat left 5px;
+    background: url(../images/facebook-like.svg) no-repeat left 5px;
     text-align: right;
 
 }
@@ -234,7 +234,7 @@
     line-height: 30px;
     width: 41px;
     display: inline-block;
-    background: url(./images/facebook-comment.svg) no-repeat left 6px;
+    background: url(../images/facebook-comment.svg) no-repeat left 6px;
     text-align: right;
 
 }
@@ -245,7 +245,7 @@
     line-height: 30px;
     width: 20px;
     display: inline-block;
-    background: url(./images/facebook-icon.svg) no-repeat center;
+    background: url(../images/facebook-icon.svg) no-repeat center;
     justify-self: end;
 
 }
@@ -314,8 +314,5 @@
         bottom: -70%;
         width: 80px;
         background-size: contain;
-
     }
-
-
 }

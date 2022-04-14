@@ -35,7 +35,7 @@
   bottom: 0;
   width: 170px;
   height: 124px;
-  background: url(/images/flag.png) no-repeat;
+  background: url(../images/flag.png) no-repeat;
 }
 
 .solution-heading span {
@@ -119,7 +119,7 @@
   font-size: 0.9375vw;
   font-weight: bold;
   line-height: 1.67;
-  background: url(/images/small-arrow-right.png) no-repeat right center;
+  background: url(../images/small-arrow-right.png) no-repeat right center;
 }
 
 .solution-arrows {
