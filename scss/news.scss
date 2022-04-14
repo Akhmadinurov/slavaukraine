@@ -1,5 +1,7 @@
 .facebook-news {
 
+    // overflow: hidden;
+
     display: grid;
     justify-items: center;
 
@@ -48,6 +50,7 @@
     -webkit-column-gap: 32px;
     -moz-column-gap: 32px;
     column-gap: 32px;
+    overflow: hidden;
 
 }
 
@@ -244,6 +247,16 @@
     display: inline-block;
     background: url(../images/facebook-icon.svg) no-repeat center;
     justify-self: end;
+
+}
+
+@media only screen and (max-width: 1280px) {
+
+    .facebook-news-inner {
+        max-width: 100%;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
 
 }
 

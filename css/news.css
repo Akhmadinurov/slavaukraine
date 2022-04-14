@@ -40,6 +40,7 @@
       grid-template-columns: repeat(4, min-content);
   -webkit-column-gap: 32px;
   column-gap: 32px;
+  overflow: hidden;
 }
 
 .facebook-news-item {
@@ -199,6 +200,14 @@
   background: url(../images/facebook-icon.svg) no-repeat center;
   -ms-grid-column-align: end;
       justify-self: end;
+}
+
+@media only screen and (max-width: 1280px) {
+  .facebook-news-inner {
+    max-width: 100%;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
 }
 
 @media only screen and (max-width: 1024px) {

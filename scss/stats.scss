@@ -131,6 +131,16 @@
     justify-self: center;
 }
 
+@media only screen and (max-width: 1280px) {
+
+    .stats-inner {
+        max-width: 100%;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+
+}
+
 @media only screen and (max-width: 1024px) {
 
     .stats-inner {

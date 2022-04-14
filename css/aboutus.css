@@ -71,6 +71,24 @@
   }
 }
 
+@media only screen and (max-width: 1279px) {
+  .about-us-inner {
+    max-width: 100%;
+    margin-left: 16px;
+    margin-right: 16px;
+    row-gap: 30px;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+  .slider-image {
+    width: 100%;
+    height: auto;
+  }
+  .about-us-info {
+    padding: 30px 28px 0 30px;
+  }
+}
+
 @media only screen and (max-width: 1024px) {
   .about-us-inner {
     max-width: 100%;
@@ -98,7 +116,6 @@
 @media only screen and (max-width: 768px) {
   .about-us-info {
     padding: 30px 28px 0 30px;
-    max-height: 324px;
   }
   .about-us-logo {
     margin-bottom: 20px;

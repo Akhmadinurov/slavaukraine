@@ -39,20 +39,6 @@
 
     <title>Slava Ukraine</title>
 
-    <script>
-        // top nav change on scrool 
-        var nav = document.querySelector('.navbar');
-
-        window.onscroll = function () {
-            if (window.pageYOffset > 0) {
-                document.querySelector('.navbar').classList.add('scrolled');
-            }
-            else {
-                document.querySelector('.navbar').classList.remove('scrolled');
-            }
-        }
-    </script>
-
 </head>
 
 <body>
@@ -67,28 +53,29 @@
             <div class="navbar">
 
                 <div class="logo">
-                    <a href="#">
-                        <img srcset="images/logo.png 212w" sizes="(max-width: 1024px) 105px,
-                                              212px" src="images/logo.png" alt="Slava Ukraine"> </a>
+                    <a href="./">
+                        <img srcset="images/logo.png 212w" sizes="(max-width: 1024px) 127px, 212px"
+                            src="images/logo.png" alt="Slava Ukraine"> </a>
                 </div>
 
                 <div class="flex-container">
 
-                    <!-- <div id="#menuToggle"> -->
+                    <div id="#menuToggle">
 
-                    <!-- <div class="navbar__sandwich-menu" onchange="toggle()">
-                    <input class="navbar__fake-checkbox" type="checkbox" />
-                </div> -->
+                        <div class="navbar__sandwich-menu" onchange="toggle()">
+                            <input class="navbar__fake-checkbox" type="checkbox" />
+                        </div>
 
-                    <nav id="cont" class="navbar-menu">
-                        <a href="#problem" class="navbar-link">Problem</a>
-                        <a href="#aboutus" class="navbar-link">About us</a>
-                        <a href="#solution" class="navbar-link">Solution</a>
-                        <a href="#facebook-news" class="navbar-link">News</a>
-                        <a href="#" class="navbar-link">Contacts</a>
-                    </nav>
+                        <nav id="cont" class="navbar-menu">
+                            <a href="#problem" class="navbar-link" onclick="toggle()">Problem</a>
+                            <a href="#aboutus" class="navbar-link" onclick="toggle()">About us</a>
+                            <a href="#solution" class="navbar-link" onclick="toggle()">Solution</a>
+                            <a href="#facebook-news" class="navbar-link" onclick="toggle()">News</a>
+                            <a href="#footer" class="navbar-link" onclick="toggle()">Contacts</a>
+                            <button class="navbar-mobile-button">Donate</button>
+                        </nav>
 
-                    <!-- </div> -->
+                    </div>
                 </div>
 
                 <div class="button-container">
@@ -454,6 +441,7 @@
 
         <!-- /facebook-news end -->
 
+        <a id="footer"></a>
         <footer class="footer">
 
             <div class="footer-inner">
