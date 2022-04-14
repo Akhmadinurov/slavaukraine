@@ -12,7 +12,7 @@ body {
 .header {
   display: -ms-grid;
   display: grid;
-  background-image: url(../images/hero.jpg);
+  background-image: url(./images/hero.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -65,7 +65,7 @@ body {
 
 .navbar__sandwich-menu {
   display: none;
-  background: #0979f0 url(../images/sandwich-lines.svg) no-repeat 6px 7px;
+  background: #0979f0 url(./images/sandwich-lines.svg) no-repeat 6px 7px;
   width: 28px;
   height: 28px;
   position: absolute;
