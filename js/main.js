@@ -36,26 +36,13 @@ function toggle() {
 	if (cont.style.display == 'flex' && window.innerWidth <= 425) {
 		cont.style.display = 'none';
 		// document.querySelector('.navbar').style.position = 'fixed';
-		document.querySelector('.navbar__sandwich-menu').style.backgroundImage = 'url(../images/sandwich-lines.svg)';
+		document.querySelector('.navbar__sandwich-menu').style.backgroundImage = 'url(images/sandwich-lines.svg)';
 
 	}
 	else {
 		cont.style.display = 'flex';
 		// document.querySelector('.navbar').style.position = 'initial';
-		document.querySelector('.navbar__sandwich-menu').style.backgroundImage = 'url(../images/sandwich-x.svg)';
+		document.querySelector('.navbar__sandwich-menu').style.backgroundImage = 'url(images/sandwich-x.svg)';
 
 	}
 }
-
-// function closeOnClick() {
-// 	var item = document.querySelector('.navbar-menu');
-	
-// 	if (item.style.display != 'none' ) {
-
-// 		document.querySelector('.navbar-menu').style.display = 'none';
-// 		// alert(window.innerWidth);
-
-// 	}
-
-
-// }
