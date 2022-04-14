@@ -60,7 +60,7 @@
   }
 }
 
-@media only screen and (min-width: 1025px) {
+@media only screen and (max-width: 1920px) {
   .gallery {
     -ms-grid-columns: (1fr)[6];
         grid-template-columns: repeat(6, 1fr);
@@ -70,6 +70,10 @@
     max-width: 100%;
     margin-left: 16px;
     margin-right: 16px;
+  }
+  .gallery-image {
+    width: 12vw;
+    height: 100%;
   }
 }
 

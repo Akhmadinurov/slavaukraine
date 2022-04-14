@@ -71,7 +71,7 @@
   }
 }
 
-@media only screen and (max-width: 1279px) {
+@media only screen and (min-width: 1025px) and (max-width: 1279px) {
   .about-us-inner {
     max-width: 100%;
     margin-left: 16px;
@@ -86,6 +86,7 @@
   }
   .about-us-info {
     padding: 30px 28px 0 30px;
+    max-height: 714px;
   }
 }
 
